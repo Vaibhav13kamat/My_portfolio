@@ -1,13 +1,19 @@
-(function () {
-    [...document.querySelectorAll(".control")].forEach(button => {
-        button.addEventListener("click", function() {
-            document.querySelector(".active-btn").classList.remove("active-btn");
-            this.classList.add("active-btn");
-            document.querySelector(".active").classList.remove("active");
-            document.getElementById(button.dataset.id).classList.add("active");
-        })
-    });
-    document.querySelector(".theme-btn").addEventListener("click", () => {
-        document.body.classList.toggle("light-mode");
-    })
-})();
+
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
+
+const navLink = document.querySelectorAll(".nav-link");
+
+navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+function closeMenu() {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}

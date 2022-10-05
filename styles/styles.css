@@ -6,7 +6,11 @@
 }
 
 :root {
-  --color-primary: #26097A;
+
+  /* --color-primary: #26097A;  /*
+
+  --color-primary: #2b1b80;
+
   --color-secondary: #38E54D;
   --color-white: #FFFFFF;
   --color-black: #000;
@@ -41,6 +45,61 @@ body {
   font-size: 1.1rem;
   color: var(--color-black);
   transition: all 0.4s ease-in-out;
+}
+.wrapper{
+  display: inline-flex;
+}
+.wrapper .static-txt{
+  color:#fff;
+  font-size: 60px;
+  font-weight:400;
+
+}
+.wrapper .dynamic-txt{
+  margin-left: 15px;
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+}
+.dynamic-txt li{
+  color: #2192FF;
+  list-style: none;
+  font-size: 60px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: slide 6s steps(4) infinite;
+}
+@keyframes slide {
+  100%{
+    top: -360px;
+  }
+}
+.dynamic-txt li span{
+  position: relative;
+}
+.dynamic-txt li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--color-primary);
+  border-left: 2px solid #2192FF;
+  animation: typing 1.5s steps(10) infinite;
+}
+@keyframes typing {
+  100%{
+    left: 100%;
+    margin: 0 -35px 0 35px;
+  }
+}
+
+
+/* Heading */
+.head{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 28px;
 }
 
 a {
@@ -476,4 +535,8 @@ h3 {
   .main-title h2 .bg-text {
     font-size: 4rem;
   }
+  
+    
+  
+  
 }/*# sourceMappingURL=styles.css.map */

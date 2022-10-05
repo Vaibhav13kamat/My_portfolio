@@ -1,4 +1,4 @@
 ## Simple portfolio Website 
 [vaibhavkamat.me](https://vaibhavkamat.me)
 
-<a href="https://ibb.co/rcjFTY5"><img src="https://i.ibb.co/gP2mHNt/Screenshot.jpg" alt="Screenshot" border="0"></a>
+![Screenshot (24)](https://user-images.githubusercontent.com/91717908/194021162-2f230e64-a7fb-40d3-b8ed-1cbeeae011e5.png)

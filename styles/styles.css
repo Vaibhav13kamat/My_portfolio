@@ -6,8 +6,8 @@
 }
 
 :root {
-  --color-primary: #FC766AFF;
-  --color-secondary: #5B84B1FF;
+  --color-primary: #9CFF2E;
+  --color-secondary: #38E54D;
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -22,9 +22,9 @@
 }
 
 .light-mode {
-  --color-primary: #D198C5FF;
-  --color-secondary: #E0C568FF;
-  --color-white: #454e56;
+  --color-primary: #4C3575;
+  --color-secondary: #371B58;
+  --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
   --color-grey-1: #6c7983;
@@ -190,7 +190,7 @@ section {
   font-size: 2rem;
 }
 .header-content .right-header .name span {
-  color: var(--color-secondary);
+  color: #2192FF;
 }
 .header-content .right-header p {
   margin: 1.5rem 0;

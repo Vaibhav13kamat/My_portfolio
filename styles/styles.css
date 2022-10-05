@@ -6,7 +6,7 @@
 }
 
 :root {
-  --color-primary: #9CFF2E;
+  --color-primary: #2b1b80;
   --color-secondary: #38E54D;
   --color-white: #FFFFFF;
   --color-black: #000;
@@ -41,6 +41,12 @@ body {
   font-size: 1.1rem;
   color: var(--color-black);
   transition: all 0.4s ease-in-out;
+}
+
+/* Heading */
+.head{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 28px;
 }
 
 a {

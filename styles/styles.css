@@ -6,7 +6,7 @@
 }
 
 :root {
-  --color-primary: #9CFF2E;
+  --color-primary: #26097A;
   --color-secondary: #38E54D;
   --color-white: #FFFFFF;
   --color-black: #000;
@@ -64,6 +64,11 @@ section {
   left: 0;
   top: 0;
   padding: 3rem 18rem;
+}
+
+h3 {
+  font-size: 3rem;
+  padding-bottom: 5%;
 }
 
 .container {
@@ -368,6 +373,19 @@ section {
   .main-title h2 .bg-text {
     font-size: 5.5rem;
   }
+}
+
+/* Skills */
+
+.skills {
+  padding: 20% 7%;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+#footer {
+  padding: 10% 3% 2%;
+  text-align: center;
 }
 @media screen and (max-width: 1250px) {
   .blogs {

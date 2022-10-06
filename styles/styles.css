@@ -465,3 +465,39 @@ section {
     font-size: 4rem;
   }
 }/*# sourceMappingURL=styles.css.map */
+.skill-card{
+  display: inline-flex;
+  flex: 30%;
+  flex-wrap: inherit;
+}
+.card{
+  height:70px
+  display: inline-block;
+  margin:20px
+}
+.card img{
+  height: 90px;
+  width: 100px;
+}
+.card p{
+  font-size: 20px;
+}
+footer{
+  height: 50px;
+  background-color:black;
+  display: inline-flex;
+  width: 100%;
+}
+footer p{
+  display: block;
+  margin-right:50px ;
+  margin-left: 400px;
+  color:white;
+}
+.handles{
+  display: inline-flex;
+  flex:25%;
+}
+.btn-con{
+  margin: 20px;
+}

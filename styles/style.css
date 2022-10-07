@@ -5,6 +5,11 @@
   box-sizing: border-box;
   font-family: "Urbanist", sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 li {
   list-style: none;
 }

@@ -216,6 +216,8 @@ a {
   flex-direction: column;
   text-overflow: ellipsis;
   background-color: rgb(22, 22, 22);
+  cursor: pointer;
+
 }
 .skill_card h3 {
   font-size: 30px;
@@ -229,6 +231,33 @@ a {
   box-shadow: 2px 5px 10px #a74e00;
   color: black;
 }
+
+footer{
+  background-color: #f1770f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1.5em 0;
+}
+
+.Contact-text{
+  font-size: 1.5em;
+  font-weight: 800;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img-container a img{
+height: 35px;
+color: black;
+padding: 0 0.8em;
+}
+
+.terms{
+  color: rgb(62, 62, 62);
+}
+
 @media (max-width: 530px) {
   .skill_card {
     width: 100%;

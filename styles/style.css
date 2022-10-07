@@ -20,7 +20,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 1.5rem;
+  padding: 1rem 2rem;
 }
 .navbar a {
   color: white;
@@ -42,6 +42,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 3%;
 }
 
 .nav-item {
@@ -149,6 +150,7 @@ a {
     text-align: center;
     transition: 0.3s;
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    text-decoration: none;
   }
 
   .nav-menu.active {

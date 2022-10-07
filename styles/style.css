@@ -21,6 +21,11 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
+  width: 100%;
+  background: #000;
+  position: fixed;
+  z-index: 5; 
+  transition: 00.3s;
 }
 .navbar a {
   color: white;
@@ -181,6 +186,9 @@ a {
   .switch {
     margin-top: 15px;
     margin-left: 0px;
+  }
+  .landing{
+    padding-top: 8rem;
   }
 }
 

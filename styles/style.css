@@ -223,6 +223,8 @@ a {
   flex-direction: column;
   text-overflow: ellipsis;
   background-color: rgb(22, 22, 22);
+  cursor: pointer;
+  transition: all 0.5s ease;
 }
 .skill_card h3 {
   font-size: 30px;
@@ -231,7 +233,7 @@ a {
   font-weight: 100;
 }
 .skill_card:hover {
-  transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease;
   background-color: #ff8e2b;
   box-shadow: 2px 5px 10px #a74e00;
   color: black;

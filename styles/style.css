@@ -5,6 +5,11 @@
   box-sizing: border-box;
   font-family: "Urbanist", sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 li {
   list-style: none;
 }
@@ -226,8 +231,6 @@ a {
   flex-direction: column;
   text-overflow: ellipsis;
   background-color: rgb(22, 22, 22);
-  cursor: pointer;
-
 }
 .skill_card h3 {
   font-size: 30px;
@@ -242,7 +245,7 @@ a {
   color: black;
 }
 
-footer{
+footer {
   background-color: #f1770f;
   display: flex;
   justify-content: center;
@@ -252,19 +255,19 @@ footer{
   padding: 1.5em 0;
 }
 
-.Contact-text{
+.Contact-text {
   font-size: 1.5em;
   font-weight: 800;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.img-container a img{
-height: 35px;
-color: black;
-padding: 0 0.8em;
+.img-container a img {
+  height: 35px;
+  color: black;
+  padding: 0 0.8em;
 }
 
-.terms{
+.terms {
   color: rgb(62, 62, 62);
 }
 

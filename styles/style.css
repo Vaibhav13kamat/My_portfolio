@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Urbanist:wght@400;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -241,6 +242,55 @@ a {
   font-weight: 100;
 }
 .skill_card:hover {
+  transition: all 0.5s ease;
+  background-color: #ff8e2b;
+  box-shadow: 2px 5px 10px #a74e00;
+  color: black;
+}
+.experiences {
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.exp h1 {
+  font-size: 40px;
+}
+.exp_card_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+.exp_card {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px;
+  padding: 60px 40px;
+  text-align: center;
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-overflow: ellipsis;
+  background-color: rgb(22, 22, 22);
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.exp_card h3 {
+  font-size: 30px;
+}
+.exp_card p {
+  font-weight: 100;
+}
+.exp_card:hover {
   transition: all 0.5s ease;
   background-color: #ff8e2b;
   box-shadow: 2px 5px 10px #a74e00;

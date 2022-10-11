@@ -31,3 +31,24 @@ window.onscroll = function() {
     prevScrollpos = currentScrollPos;
 }
 //end of nav scrolling code
+
+
+//start of cursor code
+const $bigBall = document.querySelector('.cursor__ball--big');
+const $smallBall = document.querySelector('.cursor__ball--small');
+
+// Listeners
+document.body.addEventListener('mousemove', onMouseMove);
+
+// Move the cursor
+function onMouseMove(e) {
+  TweenMax.to($bigBall, .4, {
+    x: e.pageX ,
+    y: e.pageY
+  })
+  TweenMax.to($smallBall, .1, {
+    x: e.pageX ,
+    y: e.pageY 
+  })
+}
+//end of cursor code

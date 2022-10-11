@@ -167,7 +167,7 @@ a {
   .nav-menu.active {
     left: 0;
     background: black;
-    z-index: 100;
+    z-index: 50;
   }
 
   .nav-item {
@@ -176,7 +176,7 @@ a {
 
   .hamburger {
     display: block;
-    cursor: pointer;
+    /* cursor: pointer; */
   }
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
@@ -232,7 +232,7 @@ a {
   flex-direction: column;
   text-overflow: ellipsis;
   background-color: rgb(22, 22, 22);
-  cursor: pointer;
+  /* cursor: pointer; */
   transition: all 0.5s ease;
 }
 .skill_card h3 {
@@ -281,7 +281,7 @@ a {
   flex-direction: column;
   text-overflow: ellipsis;
   background-color: rgb(22, 22, 22);
-  cursor: pointer;
+  /* cursor: pointer; */
   transition: all 0.5s ease;
 }
 .exp_card h3 {
@@ -333,3 +333,30 @@ footer {
     padding: 20px 0;
   }
 }
+
+body {
+  cursor: none;
+}
+
+.cursor {
+  pointer-events: none;
+}
+
+body .cursor {
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  mix-blend-mode: difference;
+}
+
+.cursor__ball{
+  position: absolute;
+
+}
+
+body .cursor .cursor__ball circle {
+  fill: #f1770f;
+  z-index: 99;
+}
+
+

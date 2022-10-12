@@ -116,6 +116,9 @@ a {
 .photo img {
   max-width: 250px;
 }
+.info{
+  margin-top:2rem;
+}
 .info p:nth-child(1) {
   font-size: 1.8rem;
 }

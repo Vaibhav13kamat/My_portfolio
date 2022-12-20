@@ -85,6 +85,12 @@ a {
   align-items: center;
   justify-content: center;
 }
+.random {
+  background-color: rgb(0, 0, 0);
+}
+.text {
+color: #fff;
+}
 .container {
   display: flex;
   padding: 50px;

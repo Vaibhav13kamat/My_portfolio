@@ -23,19 +23,20 @@ a {
 }
 
 .navbar {
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
   width: 100%;
   background: #000;
-  position: fixed;
   z-index: 5; 
   transition: 00.3s;
 }
-.navbar a {
+.navbar a{
   color: white;
 }
+
 .hamburger {
   display: none;
 }
@@ -67,6 +68,8 @@ a {
 
 .nav-link:hover {
   color: #f1770f;
+  text-decoration-line:  underline;
+  text-underline-offset: 5px;
 }
 .nav-logo {
   font-size: 2.1rem;
@@ -78,7 +81,7 @@ a {
   text-decoration-color: #f1770f;
 }
 .landing {
-  height: 91vh;
+  height: 100vh;
   color: white;
   background-color: black;
   display: flex;
@@ -210,16 +213,19 @@ color: #fff;
 .skills {
   width: 100%;
   min-height: 100vh;
-  background-color: black;
-  color: white;
+  background-color: #ff8e2b;
+  color: black;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 .skills h1 {
-  font-size: 40px;
+  font-size: 30px;
+  text-decoration-line:  underline;
+  text-underline-offset: 8px;
 }
+
 .skills_card_container {
   width: 100%;
   display: flex;
@@ -240,7 +246,8 @@ color: #fff;
   justify-content: center;
   flex-direction: column;
   text-overflow: ellipsis;
-  background-color: rgb(22, 22, 22);
+  background-color: rgba(251, 194, 144, 0.072);
+  box-shadow: 2px 5px 10px #a74e00;
   /* cursor: pointer; */
   transition: all 0.5s ease;
 }
@@ -252,9 +259,9 @@ color: #fff;
 }
 .skill_card:hover {
   transition: all 0.5s ease;
-  background-color: #ff8e2b;
+  background-color: black;
   box-shadow: 2px 5px 10px #a74e00;
-  color: black;
+  color: white;
 }
 .experiences {
   width: 100%;
@@ -266,8 +273,10 @@ color: #fff;
   justify-content: center;
   flex-direction: column;
 }
-.exp h1 {
-  font-size: 40px;
+.experiences h1 {
+  font-size: 30px;
+  text-decoration-line:  underline;
+  text-underline-offset: 8px;
 }
 .exp_card_container {
   width: 100%;

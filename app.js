@@ -19,34 +19,35 @@ function closeMenu() {
 }
 
 // Code to hide nav while scrolling
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-    closeMenu();
-    var currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos) {
-        document.getElementById("navbar").style.top = "0";
-    } else {
-        document.getElementById("navbar").style.top = "-75px";
-    }
-    prevScrollpos = currentScrollPos;
-}
+//var prevScrollpos = window.pageYOffset;
+//window.onscroll = function() {
+//    closeMenu();
+//    var currentScrollPos = window.pageYOffset;
+//    if (prevScrollpos > currentScrollPos) {
+//        document.getElementById("navbar").style.top = "0";
+//    } else {
+//        document.getElementById("navbar").style.top = "-75px";
+//    }
+//    prevScrollpos = currentScrollPos;
+//}
 //end of nav scrolling code
 
 
 // add options for dark theme
 const options = {
-    bottom: '64px', // default: '32px'
-    right: 'unset', // default: '32px'
-    left: '32px', // default: 'unset'
-    time: '0.5s', // default: '0.3s'
-    mixColor: '#fff', // default: '#fff'
-    backgroundColor: '#fff',  // default: '#fff'
-    buttonColorDark: '#100f2c',  // default: '#100f2c'
-    buttonColorLight: '#fff', // default: '#fff'
-    saveInCookies: false, // default: true,
-    label: "🌓", // default: ''
-    autoMatchOsTheme: true // default: true
-  }
+  top: '64px', // default: '32px'
+  right: 'unset',
+  left: 'unset', // Remove the "left" property
+  time: '0.5s',
+  mixColor: '#100f2c', // Change to the button background color
+  backgroundColor: '#fff',  // Change to the button background color
+  buttonColorDark: '#100f2c',
+  buttonColorLight: '#fff',
+  saveInCookies: false,
+  label: "🌑",
+  autoMatchOsTheme: true
+};
+
   
   const darkmode = new Darkmode(options);
   darkmode.showWidget();

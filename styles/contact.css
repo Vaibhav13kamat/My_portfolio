@@ -1,17 +1,13 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f8f8f8;
+    background-color: #f5f9ee;
     color: #333;
     line-height: 1.6;
     margin: 0;
     padding: 0;
   }
   
-  .header {
-    background-color: #222;
-    color: #fff;
-    padding: 1rem;
-  }
+  
   
   .header h1 {
     margin: 0;
@@ -21,8 +17,7 @@ body {
     max-width: 600px;
     margin: 0 auto;
     padding: 2rem;
-    background-color: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f5f9ee;
   }
   
   .contact-section {
@@ -59,7 +54,7 @@ body {
   }
   
   button {
-    background-color: #007bff;
+    background-color: #000000;
     color: #fff;
     border: none;
     padding: 12px 24px;
@@ -69,7 +64,7 @@ body {
   }
   
   button:hover {
-    background-color: #0056b3;
+    background-color: #3e3e3e;
   }
   
   @media (max-width: 480px) {
@@ -77,4 +72,5 @@ body {
       padding: 1rem;
     }
   }
-  
+
+ 

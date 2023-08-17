@@ -71,6 +71,10 @@ body {
     .container {
       padding: 1rem;
     }
+      .nav-link {
+        display:none;
+    }
   }
+    
 
  

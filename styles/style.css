@@ -170,18 +170,7 @@ color: #fff;
   }
 }
 
-@media (max-width: 700px) {
-  .container {
-    flex-direction: column-reverse;
-  }
-  .photo {
-    min-width: 300px;
-    min-height: 300px;
-  }
-  .photo img {
-    max-width: 220px;
-  }
-}
+
 @media only screen and (max-width: 768px) {
   .nav-menu {
     position: fixed;
@@ -257,19 +246,10 @@ footer {
   color: rgb(62, 62, 62);
 }
 
-@media (max-width: 530px) {
-  .skill_card {
-    width: 100%;
-    max-width: auto;
-    margin: 20px 0;
-  }
-  .skills_card_container {
-    padding: 20px 0;
-  }
-}
+
 
 body {
-  cursor: none;
+  
 }
 
 .cursor {
@@ -300,7 +280,47 @@ footer a
   position: relative;
   color: #0087ca;
 }
+.nav-sign{
+  align-items: flex-start;
+}
 
+
+@media (min-width: 100px) {
+  .container {
+    align-items: center;
+  }
+  .navbar {
+    align-content:center
+
+  }
+  .landing {
+    padding-top:
+    
+  }
+  .container {
+    padding-left: 10px;
+    padding-right: 0px;
+    
+  }
+  .main-name {
+    font-size: 2.5rem;
+  }
+  .cursor__ball {
+    display: none;
+  
+  }
+  .hamburger {
+    padding: 10px;
+
+  }
+  .nav-logo {
+    align-items: center;
+  }
+  .details {
+   justify-content: flex-start;
+  }
+
+}
 
 
 

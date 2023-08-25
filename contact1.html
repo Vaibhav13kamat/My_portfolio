@@ -21,9 +21,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet"> <!--cookie font for details-->
 <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi:ital@1&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="style.css">
-    <title>Vaibhav Kamat</title>
+    <link rel="stylesheet" href="styles/contact.css">
+    <title>Vaibhav Kamat| Contact</title>
 </head>
 
 <body>
@@ -35,7 +34,7 @@
                     <a href="" class="logo">VK</a>
                     <ul class="nav-menu">
                         <li class="nav-item">
-                          <a href="about1.html" class="nav-link">About</a>
+                          <a href="about1.html" class="nav-link">Home</a>
                         </li>
 
                         <li class="nav-item">
@@ -43,31 +42,41 @@
                         </li>
                         
                         <li class="nav-item">
-                          <a href="contact1.html" class="nav-link">Contact</a>
+                          <a href="contact.html" class="nav-link">About</a>
                         
                         </li>
                           
                       </ul>
-                    <h1 class="main-name">Vaibhav Kamat</h1>
-                    <h2 class="details">I'm a full-stack developer with a computer science degree, passionate about open-source and machine learning. When I'm not coding, you'll find me on the football field, fueled by teamwork and strategy.
                     </h2>
                 </div>
             </div>
         </div>
+        <p class="email-option"> OR can shoot an Email directly at kamatvaibhav@outlook.com</p>
 
-        <div class="container">
-            <div class="footer">
-                <div class="img-container">
-                    <a href="https://github.com/Vaibhav13kamat"> <img src="./images/github.svg" height="16px" width="30px" alt="Github"> </a>
-                    <a href="https://twitter.com/vvvkkkvvvv"> <img src="./images/twitter.svg" height="16px" width="30px" alt="twitter"></a>
-                    <a href="https://www.linkedin.com/in/vaibhav-kamat-08453a1a6/"> <img src="./images/linkedin.svg" height="16px" width="30px"alt="linkedin"></a>
-                    <a href="https://www.instagram.com/vaibhav_kamat_/"> <img src="./images/instagram.svg" height="16px" width="30px" alt="instagram"></a>
-                    <a href="https://www.facebook.com"> <img src="./images/facebook.svg" height="16px" width="30px" alt="facebook"></a>
-                    <a href=""> <img src="./images/code.svg" height="16px" width="30px" alt="youtube">  </a>
-                   </div>
-                
+        <section class="contact-form">
+            <div class="container">
+              
+              <form id="contactForm" method="post" action="https://getform.io/f/7ee2eb84-7d0d-4b7f-8bbc-7b76eefda0af">
+                <div class="form-group">
+                  <label class="box-text" for="name">Name</label>
+                  <input type="text" id="name" name="name" required>
+                </div>
+        
+                <div class="form-group">
+                  <label class="box-text"  for="email">Email</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+        
+          
+                <div class="form-group">
+                  <label class="box-text" for="message">Message</label>
+                  <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+        
+                <button type="submit">Send Message</button>
+              </form>
             </div>
-        </div>
+          </section>
 
     </div>
 

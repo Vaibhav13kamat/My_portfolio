@@ -48,6 +48,27 @@ ul {
     display: inline-block;
     margin-right: 10px; /* add spacing between items */
   }
+h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 4rem;
+    color: #f1770f;
+
+}
+p {
+    font-family: 'Grandstander', cursive;
+    color: #ffffff;
+}
+strong{
+    font-family: 'Grandstander', cursive;
+    color: #ffffff;
+}
+h6 {
+    font-family: 'Grandstander', cursive;
+    color: #ffffff;
+}
+h4 {
+    font-family: 'Tourney', cursive;
+}
 
 .logo{
     font-size: 5rem;
@@ -63,24 +84,15 @@ ul {
 
     
 }
-
-.main-name {
-    padding-top: 150px;
-    font-size: 6rem;
-    font-weight: 700;
-    letter-spacing: 0.2rem;
-    margin-bottom: 1rem;
-    text-align: left;
-    color: #f1770f;
-    font-family: 'Great Vibes', cursive;
+.company-images {
+    size-adjust: 100%;
+    text-align: center;
 }
-
-.details {
-    font-size: 4rem;
-    font-family: 'Cookie', cursive;
-    color: #c8c3cc;
+.music {
+    font-family: 'Cairo Play', sans-serif;
+    
 }
-.image-container img{
-  display: flex;
-  gap: 100px;
+.football {
+    font-family: 'Tulpen One', cursive;
+    font-size: 1.4pc;
 }

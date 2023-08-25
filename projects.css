@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    height: 100%;
+    background: #2a2b32;
+}
+
+a{
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: #e91e63;
+}
+
+h1.header{
+    color: #e91e63;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+h2{
+    color: #616161;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+canvas{
+    height: 100vh;
+    z-index: -100000;
+    position: fixed;
+    top: 0px;
+}
+ul {
+    list-style: none;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 10px; /* add spacing between items */
+  }
+h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 4rem;
+    color: #f1770f;
+
+}
+p {
+    font-family: 'Grandstander', cursive;
+    color: #ffffff;
+}
+strong{
+    font-family: 'Grandstander', cursive;
+    color: #ffffff;
+}
+h6 {
+    font-family: 'Grandstander', cursive;
+    color: #ffffff;
+}
+h4 {
+    font-family: 'Tourney', cursive;
+}
+
+.logo{
+    font-size: 5rem;
+    font-family:'Tilt Prism', cursive;
+    padding-top: 2rem;
+    left: 3rem;
+}
+.nav-menu {
+    position: absolute;
+    right: 13px;
+    top: 3rem;
+}
+.tile {
+    display: inline-block;
+    text-overflow: ellipsis;
+    
+    margin: 3.5rem; /* Adjust spacing between tiles */
+    
+}
+
+.tile-text {
+    display: block;
+    text-align: start;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+    color: #f1770f;
+}
+.tile-description {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1rem;
+    color: #ccc;
+    text-align: start;
+    white-space: wrap;
+    text-align: justify;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflowing text */
+    text-overflow: ellipsis;
+}
+
+.tile-image {
+    text-align: start;
+    
+}
+
+.tech-buttons {
+    text-align: center;
+}
+
+.tech-used {
+    display: inline-block;
+    margin-right: 5px; /* Adjust spacing between technology buttons */
+    background-color: #f1f1f1;
+    padding: 5px px;
+    border-radius: 5px;
+    background-color: aqua;
+    color: #000000;
+}
+.TechTwister-text {
+    font-family: 'Handjet', cursive;
+    font-size: 3rem;
+    color: #ffffff;
+
+}
+.WeatherApp-text {
+    font-family: 'Rubik Iso', cursive;
+    font-size: 3rem;
+    color: #ffffff;
+}
+.FL-text {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    
+
+    .logo {
+        font-size: 3rem; /* Decrease logo font size */
+    }
+
+    .nav-menu {
+        top: 1rem; /* Adjust top position */
+        right: 1rem; /* Adjust right position */
+    }
+
+    .tile {
+        margin: 2rem;
+        margin-left: 2rem; /* Adjust spacing between tiles */
+    }
+
+    .tile-text {
+        font-size: 2rem; /* Decrease tile text font size */
+    }
+
+    .tile-description {
+        font-size: 0.9rem; /* Decrease description font size */
+    }
+
+    .tech-used {
+        margin-right: 3px; /* Adjust spacing between technology buttons */
+    }
+
+    .TechTwister-text,
+    .WeatherApp-text,
+    .FL-text {
+        font-size: 2rem; /* Decrease technology text font size */
+    }
+}

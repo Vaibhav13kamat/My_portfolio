@@ -72,12 +72,14 @@ ul {
     margin-bottom: 1rem;
     text-align: left;
     color: #f1770f;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Alegreya', serif;
+    
 }
 
 .details {
     font-size: 4rem;
-    font-family: 'Cookie', cursive;
+    letter-spacing: normal;
+    font-family: 'Oswald', sans-serif;
     color: #c8c3cc;
 }
 .image-container img{

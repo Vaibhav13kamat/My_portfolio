@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
 
 *{
     padding: 0;
@@ -44,12 +46,12 @@ ul {
     list-style: none;
   }
   
-  li {
+li {
     display: inline-block;
     margin-right: 10px; /* add spacing between items */
-  }
+}
 h2 {
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Alegreya', serif;
     font-size: 4rem;
     color: #f1770f;
 
@@ -67,7 +69,7 @@ h6 {
     color: #ffffff;
 }
 h4 {
-    font-family: 'Tourney', cursive;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 .logo{
@@ -89,10 +91,10 @@ h4 {
     text-align: center;
 }
 .music {
-    font-family: 'Cairo Play', sans-serif;
+    font-family: 'Alegreya', serif;
     
 }
 .football {
-    font-family: 'Tulpen One', cursive;
+    font-family: 'Dosis', sans-serif;
     font-size: 1.4pc;
 }
